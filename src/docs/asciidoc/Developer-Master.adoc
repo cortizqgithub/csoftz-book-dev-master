@@ -1,0 +1,24 @@
+:title: Developer Master
+:author: CSoftZ - Carlos Adolfo Ortiz Q.
+:email:  carlosaortiz@yahoo.com 
+:revnumber: 1.0.0.1
+:revdate:   {docdate}
+:subject: Developer Master
+:keywords: Java, .NET, Neo4j, Microservices.
+:doctype: book
+:toc: 
+:toc-title: Contents
+:toclevels: 5
+:icons: font
+:lang: en
+:language: javadocript
+ifndef::ebook-format[:leveloffset: 1]
+= {title}
+
+[colophon]
+include::blocks/colophon.adoc[]
+
+[preface]
+include::blocks/preface.adoc[]
+
+include::blocks/introduction.adoc[]

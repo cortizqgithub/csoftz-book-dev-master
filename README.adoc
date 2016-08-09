@@ -1,0 +1,16 @@
+= csoftz-book-dev-master  
+
+V1.0.0.1 Aug.09/2016
+
+This is a gradle project to write and compile the ASCIIDOCTOR files to generate HTML, PDF, DocBook & epub3 backends for my personal book of all I learn as a developer.
+Ths _src/main/docs/asciidoc_ folder contains the book sources.
+
+NOTE: You must have Java 8 installed, ASCIIDOCTOR with the gradle plugin. Thus, in order to use this document generator 
+refer to the usage section below.
+ 
+== Usage
+
+Convert the AsciiDoc to HTML, PDF, DocBook & epub3 by invoking the 'asciidoctor' goal:
+
+ $ ./gradlew asciidoc
+

@@ -1,0 +1,8 @@
+[discrete]
+= {title}
+(C) 2016 {author} Copyright. Version {revnumber}
+
+Published by CSoftZ
+
+No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means,
+electronic, mechanical, photocopying, recoding, scanning or otherwise except, without the prior written permission of the publisher.
