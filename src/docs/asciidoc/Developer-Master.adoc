@@ -22,3 +22,5 @@ include::blocks/colophon.adoc[]
 include::blocks/preface.adoc[]
 
 include::blocks/introduction.adoc[]
+
+include::blocks/microservices.adoc[]
