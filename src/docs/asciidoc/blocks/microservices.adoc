@@ -1,4 +1,8 @@
 = Microservices
+Microservices are a software component model that works. They are a way of making big
+software systems out of little pieces. Little pieces of software are easy to understand, easy to
+reason about, and easy to inspect for correctness. -- The Tao of Microservices, Manning, Richard Rodger
+
 
 == What are Microservices
 Microservices involve an architectural approach that emphasizes the decomposition of applications into single-purpose, loosely coupled services managed by 
