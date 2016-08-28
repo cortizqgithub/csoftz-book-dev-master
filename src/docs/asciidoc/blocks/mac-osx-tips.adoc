@@ -1,0 +1,22 @@
+== macOS X Tips
+
+=== brew (http://brew.sh/)
+log in in a terminal window as root user.
+
+To install
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+
+to update
+# brew update
+
+=== ruby
+log in in a terminal window as root user.
+
+If you need to update ruby https://coolestguidesontheplanet.com/upgrading-ruby-osx/
+
+# brew install ruby
+
+Update ruby
+
+gem update --system
+

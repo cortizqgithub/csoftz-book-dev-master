@@ -1,0 +1,5 @@
+== Linux/Unix
+
+To reload terminal 
+
+$ source ~/.bash_profile
