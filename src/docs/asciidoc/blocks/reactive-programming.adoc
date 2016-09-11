@@ -1,0 +1,58 @@
+= Reactive Programming
+
+****
+To further research
+
+. Non-blocking applications.
+. Event driven
+. Reactive Streams (Publisher, Subscriber, Backpresure)
+
+In Java 8
+
+. java.util.concurrent.CompletionStage
+. java.util.stream.Stream
+
+Spring Reactive project components
+
+CompletionStage ...... Mono
+Stream ............... Flux
+Reactive Streams
+
+****
+
+Reactive programming is a programming paradigm
+based on data flows and the propagation
+of changes.
+
+Reactive systems, on the other hand, are continuously stimulated
+by the external environment, and their role is to continuously respond to these
+stimuli.
+
+Whereas interactive programs set the speed at which they interact with the environment themselves, reactive programs are capable
+of interacting with the environment at the speed dictated by the environment.
+
+Thus, reactive programs
+
+* Are available to continuously interact with their environment
+* Run at a speed that is dictated by the environment, not the program itself
+* Work in response to external demand
+
+== The Reactive manifesto
+The first version of the Reactive Manifesto was published in June 2013, and it
+describes a software architecture with the name Reactive Applications. Reactive applications
+are defined by a set of characteristics, or _traits_ as they’re called in the manifesto
+(those traits have nothing to do with Scala’s _traits_), that altogether make up for
+applications that behave in the same way as the reactive programs we talked about earlier:
+continuously available and readily responding to external demand. Although the
+Reactive Manifesto may seem like it’s describing an entirely new architectural pattern,
+its core principles have long been known in industries that require real-time behavior
+from their IT systems, such as financial trading.
+
+The following four traits make up reactive applications:
+* Responsive—React to users
+* Scalable—React to load
+* Resilient—React to failure
+* Event-driven—React to events
+
+
+

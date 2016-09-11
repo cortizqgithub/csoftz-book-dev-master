@@ -3,7 +3,6 @@ Microservices are a software component model that works. They are a way of makin
 software systems out of little pieces. Little pieces of software are easy to understand, easy to
 reason about, and easy to inspect for correctness. -- The Tao of Microservices, Manning, Richard Rodger
 
-
 == What are Microservices
 Microservices involve an architectural approach that emphasizes the decomposition of applications into single-purpose, loosely coupled services managed by 
 cross-functional teams, for delivering and maintaining complex software systems with the velocity and quality required by today’s digital business.
@@ -71,3 +70,7 @@ software—Netflix’s Hystrix and Ribbon are good libraries that implement this
 . *DevOps:* Continuous Integration and Continuous Deployment (CI/CD) are very important in order for microservices-based applications to succeed. These 
 practices are required so that errors are identified early, and so little to no coordination is required between different teams building 
 different microservices.
+
+== Writing in .NET Core
+
+== Writing in Java
