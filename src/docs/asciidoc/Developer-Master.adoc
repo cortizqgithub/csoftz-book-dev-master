@@ -31,8 +31,14 @@ include::blocks/mac-osx-tips.adoc[]
 
 include::blocks/nativescript.adoc[]
 
+include::blocks/electron.adoc[]
+
 include::blocks/git.adoc[]
 
 include::blocks/cloud-computing.adoc[]
 
 include::blocks/reactive-programming.adoc[]
+
+include::blocks/sql-adoc[]
+
+include::blocks/no-sql.adoc[]
