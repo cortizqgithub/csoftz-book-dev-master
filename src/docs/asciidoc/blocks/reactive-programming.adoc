@@ -1,11 +1,23 @@
 = Reactive Programming
 
+. Reactive is used broadly to define event-driven systems.
+. Now also entering the domain of application/business logic
+. Non-blocking event-driven architecture
+
+== Reactive Manifesto
+* Reflects the emerging field of scalable, non-blocking applications.
+* A hark back to other successful manifestos.
+* Well articulated but very broad strokes.
+* Defines qualities of *reactive systems*.
+* For reactive programming we need concrete tools.
+
 ****
 To further research
 
 . Non-blocking applications.
 . Event driven
 . Reactive Streams (Publisher, Subscriber, Backpresure)
+. TCK
 
 In Java 8
 
