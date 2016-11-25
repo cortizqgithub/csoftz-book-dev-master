@@ -25,6 +25,8 @@ include::blocks/introduction.adoc[]
 
 include::blocks/microservices.adoc[]
 
+include::blocks/devops.adoc[]
+
 include::blocks/unix-linux.adoc[]
 
 include::blocks/mac-osx-tips.adoc[]

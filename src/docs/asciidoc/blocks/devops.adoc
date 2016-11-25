@@ -1,0 +1,142 @@
+= DevOps
+The term DevOps is mapped to Development and Operations and it fits in a sense in the Agile Systems developmment.
+An important part of DevOps is being able to explain to coworkers in your organization what DevOps is and what it isn't.
+The faster you can get everyone aboard the DevOps train, the faster you can get to the part where you perform the actual technical 
+implementation!
+
+TODO Put the following
+Some text is extracted from the book Practical DevOps by Joakim Verona, PacktPub Publishing.
+
+== Introduction
+DevOps is, by definition, a field that spans several disciplines. It is a field that is very practical and hands-on, but at the 
+same time, you must understand both the technical background and the nontechnical cultural aspects. This book covers both the practical and 
+soft skills required for a best-of-breed DevOps implementation in your organization.
+
+The word _‘DevOps’_ is a combination of the words _‘development’_ and _‘operation’_. This wordplay already serves to give us a hint of the basic 
+nature of the idea behind DevOps. It is a practice where collaboration between different disciplines of software development is encouraged.
+
+The DevOps movement has its roots in Agile software development principles. The Agile Manifesto was written in 2001 by a number of individuals 
+wanting to improve the then current status quo of system development and find new ways of working in the software development industry. 
+(http://agilemanifesto.org).
+
+In light of this, DevOps can be said to relate to the first principle, _‘Individuals and interactions over processes and tools.’_
+
+DevOps, then, tends to emphasize that interactions between individuals are very important, and that technology might possibly assist in making these 
+interactions happen and tear down the walls inside organizations. This might seem counterintuitive, given that the first principle favors interaction 
+between people over tools, but my opinion is that any tool can have several effects when used. If we use the tools properly, they can facilitate 
+all of the desired properties of an Agile workplace.
+
+A very simple example might be the choice of systems used to report bugs. Quite often, development teams and quality assurance teams use 
+different systems to handle tasks and bugs. This creates unnecessary friction between the teams and further separates them when they should 
+really focus on working together instead. The operations team might, in turn, use a third system to handle requests for deployment to the 
+organization's servers.
+
+An engineer with a DevOps mindset, on the other hand, will immediately recognize all three systems as being workflow systems with similar properties. It 
+should be possible for everyone in the three different teams to use the same system, perhaps tweaked to generate different views for the different roles. A 
+further benefit would be smaller maintenance costs, since three systems are replaced by one.
+
+Another core goal of DevOps is automation and Continuous Delivery. Simply put, automating repetitive and tedious tasks leaves more time for human 
+interaction, where true value can be created.
+
+== How fast is fast?
+
+The turnaround for DevOps processes must be fast. We need to consider time to market in the larger perspective, and simply stay focused on our tasks 
+in the smaller perspective. This line of thought is also held by the Continuous Delivery movement.
+
+As with many things Agile, many of the ideas in DevOps and Continuous Delivery are in fact different names of the same basic concepts. There really isn't 
+any contention between the two concepts; they are two sides of the same coin.
+
+DevOps engineers work on making enterprise processes faster, more efficient, and more reliable. Repetitive manual labor, which is error prone, is removed 
+whenever possible.
+
+Another way to look at it is this: If you ever feel yourself losing focus because of needless waiting, something is wrong with your processes or your 
+tooling. If you find yourself watching videos of robots shooting balloons during compile time, your compile times are too long!
+
+The same is true for teams idling while waiting for deploys and so on. This idling is, of course, even more expensive than that of a single individual.
+
+== The Agile wheel of wheels
+
+There are several different cycles in Agile development, from the Portfolio level through to the Scrum and Kanban cycles and down to the Continuous 
+Integration cycle. The emphasis on which cadence work happens in is a bit different depending on which Agile framework you are working with. Kanban 
+emphasizes the 24-hour cycle and is popular in operations teams. Scrum cycles can be between two to four weeks and are often used by development teams 
+using the Scrum Agile process. Longer cycles are also common and are called Program Increments, which span several Scrum Sprint cycles, in Scaled 
+Agile Framework.
+
+image::devops/img001-agile-wheels.jpg[The Agile wheel of wheels, scaledwidth=75%]
+
+DevOps must be able to support all these cycles. This is quite natural given the central theme of DevOps: cooperation between disciplines in an Agile 
+organization.
+
+The most obvious and measurably concrete benefits of DevOps occur in the shorter cycles, which in turn make the longer cycles more efficient. Take care
+of the pennies, and the pounds will take care of themselves, as the old adage goes.
+
+Here are some examples of when DevOps can benefit Agile cycles:
+
+* Deployment systems, maintained by DevOps engineers, make the deliveries at the end of Scrum cycles faster and more efficient. These can take place with 
+a periodicity of two to four weeks.{zwsp} +
+{zwsp} +
+In organizations where deployments are done mostly by hand, the time to deploy can be several days. Organizations that have these inefficient deployment 
+processes will benefit greatly from a DevOps mindset.
+
+* The Kanban cycle is 24 hours, and it's therefore obvious that the deployment cycle needs to be much faster than that if we are to succeed with Kanban.{zwsp} +
+{zwsp} +
+A well-designed DevOps Continuous Delivery pipeline can deploy code from being committed to the code repository to production in the order of minutes, 
+depending on the size of the change.
+
+An example of a Continuous Delivery pipeline in a large organization is introduced in the following image:
+
+image::devops/img002-continuous-delivery-pipeline-large-org.jpg[Continuous Delivery pipeline in a large organization, scaledwidth=75%]
+
+== Architecture rules of thumb
+There are a number of architecture rules that might help us understand how to deal with the way Monolith apps are deployed/modified.
+
+=== The separation of concerns
+The renowned Dutch computer scientist Edsger Dijkstra first mentioned his idea of how to organize thought efficiently in his paper from 1974, 
+*_On the role of scientific thought_*.
+
+He called this idea _‘the separation of concerns’_. To this date, it is arguably the single most important rule in software design. There are many other 
+well-known rules, but many of them follow from the idea of the separation of concerns. The fundamental principle is simply that we should consider 
+different aspects of a system separately.
+
+==== The principle of cohesion
+In computer science, cohesion refers to the degree to which the elements of a software module belong together.
+Cohesion can be used as a measure of how strongly related the functions in a module are.
+It is desirable to have strong cohesion in a module.
+We can see that strong cohesion is another aspect of the principle of the separation of concerns.
+
+=== Coupling
+Coupling refers to the degree of dependency between two modules. We always want low coupling between modules.
+Again, we can see coupling as another aspect of the principle of the separation of concerns.
+Systems with high cohesion and low coupling would automatically have separation of concerns, and vice versa.
+
+== Three-tier systems
+Most of todays applications are built using the Three-tier pattern.
+
+This software architecture pattern has been in use for decades and continues to be popular. These types of systems are very common, and it is quite 
+likely that you will encounter them, either as legacy systems or as new designs.
+
+In this figure, we can see the separation of concerns idea in action:
+
+image::devops/img003-three-tier-systems.jpg[Three-tier Systems, scaledwidth=75%]
+
+== Choosing a branching strategy
+When working with code that deploys to servers, it is important to agree on a branching strategy across the organization.
+
+A branching strategy is a convention, or a set of rules, that describes when branches are created, how they are to be named, what use branches should have, 
+and so on.
+
+Branching strategies are important when working together with other people and are, to a degree, less important when you are working on your own, but they 
+still have a purpose.
+
+Most source code management systems do not prescribe a particular branching strategy and neither does Git. The SCM simply gives you the base mechanics to 
+perform branching.
+
+With Git and other distributed version control systems, it is usually pretty cheap to work locally with feature branches. A feature, or topic, branch is a 
+branch that is used to keep track of ongoing development regarding a particular feature, bug, and so on. This way, all changes in the code regarding the 
+feature can be handled together.
+
+There are many well-known branching strategies. Vincent Driessen formalized a branching strategy called Git flow, which has many good features. For some, 
+Git flow is too complex, and in those cases, it can be scaled down. There are many such scaled-down models available. This is what Git flow looks like:
+
+image::devops/img004-branch-strategy.jpg[Git Branch Workflow, scaledwidth=75%]
+
