@@ -1,0 +1,6 @@
+= Links
+Here you will find useful links for further reading or reference to all the topics discussed herein.
+
+== Web
+* JSON Web Tokens (https://jwt.io/)
+
