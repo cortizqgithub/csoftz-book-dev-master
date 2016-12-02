@@ -3,4 +3,12 @@ Here you will find useful links for further reading or reference to all the topi
 
 == Web
 * JSON Web Tokens (https://jwt.io/)
+* Angular 2 Univeristy (https://angular-university.io/)
+
+== .NET Core Packages
+* OpenIddict (https://github.com/openiddict/openiddict-core)
+
+== ASP.NET Core 
+* Safe storage of app secrets during development (https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
+
 
