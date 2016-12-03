@@ -1,0 +1,14 @@
+= Tips 'n' Tricks
+This section will contain all of the command line and useful tips about nearly anything.
+
+== Node
+With the command path on Linux and Macintosh, the global commands are normally placed in /usr/local/bin, 
+which is typically already in your path, so the nativescript command should work right away.
+
+Type nativescript and see if it runs. If it fails to run, then you need to add npm's global directory to your path. 
+Use the following command to get the current global directory.
+
+[source,terminal]
+----
+$ npm config get prefix
+---- 

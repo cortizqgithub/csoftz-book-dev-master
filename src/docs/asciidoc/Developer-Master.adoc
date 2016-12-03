@@ -1,7 +1,7 @@
 :title: Developer Master
 :author: CSoftZ - Carlos Adolfo Ortiz Q.
 :email:  carlosaortiz@yahoo.com 
-:revnumber: 1.0.0.5
+:revnumber: 1.0.0.6
 :revdate:   {docdate}
 :subject: Developer Master
 :keywords: Java, .NET, Neo4j, Microservices.
@@ -44,6 +44,8 @@ include::blocks/reactive-programming.adoc[]
 include::blocks/sql-adoc[]
 
 include::blocks/no-sql.adoc[]
+
+include::blocks/tips-n-tricks.adoc[]
 
 include::blocks/links.adoc[]
 

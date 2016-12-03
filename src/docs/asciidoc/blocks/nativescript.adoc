@@ -1,3 +1,44 @@
 = Nativescript
 
 Notes on Nativescript (https://www.nativescript.org/)
+
+== Platform classes
+
+[source,javascript]
+----
+var platform = require("platform");
+// Device Specifics
+console.log("Manufacturer:", platform.device.manufacturer);
+console.log("Platform os:", platform.device.os);
+console.log("Os version:", platform.device.osVersion);
+console.log("Model:", platform.device.model);
+console.log("SDK Version:", platform.device.sdkVersion);
+console.log("Device Type:", platform.device.deviceType);
+console.log("uuid:", platform.device.uuid);
+console.log("Language:", platform.device.language);
+
+// Screen Specifics
+console.log("Screen width in pixels:", platform.screen.mainScreen.widthPixels);
+console.log("Screen height in pixels:", platform.screen.mainScreen.heightPixels);
+console.log("Screen width in DIPs:", platform.screen.mainScreen.widthDIPs);
+console.log("Screen height in DIPs:", platform.screen.mainScreen.heightDIPs);
+console.log("Screen scale:", platform.screen.mainScreen.scale);
+----
+
+== Run
+[source,terminal]
+----
+For ios
+$ tns livesync ios --watch
+
+For android
+$ tns livesync android --watch
+----
+
+== Plugins
+
+[source,terminal]
+----
+$ tns plugin add nativescript-geolocation
+$ tns plugin add nativescript-mapbox
+----
