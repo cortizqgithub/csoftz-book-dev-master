@@ -1,6 +1,6 @@
 = csoftz-book-dev-master  
 
-V1.0.0.3 Aug.28/2016
+V1.0.4 Mar.06/2017
 
 This is a gradle project to write and compile the ASCIIDOCTOR files to generate HTML, PDF, DocBook & epub3 backends for my personal book of all I learn as a developer.
 Ths _src/main/docs/asciidoc_ folder contains the book sources.
