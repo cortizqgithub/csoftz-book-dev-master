@@ -6,3 +6,4 @@ A very comprehensive article about git-flow can be found here.
 http://nvie.com/posts/a-successful-git-branching-model/
 
 And SourceTree git client has a tutorial for git-flow as well.
+https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/
